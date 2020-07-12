@@ -1,23 +1,5 @@
 <?php 
-  
-  $num = 1;
-  $num01 = 2;
-  $num_01 = 3;
+  $string_a = "hello";
 
-
-  
-  echo $num;
-  echo $num01;
-  echo $num_01;
-
-  $Num = 7;
-  $NUM = 9;
-
-  echo $Num;
-  echo $NUM;
-
-  $return = 4;
-  $class = 5;
-
-  echo $return;
-  echo $class;
+  echo $string_a."\n";
+  echo gettype($string_a)."\n";
